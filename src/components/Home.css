@@ -1,0 +1,59 @@
+.homePage{
+    width: 100%;
+    height: calc(100vh - 80px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+} 
+
+.postContents{
+    width: 600px;
+    max-height: 600px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 4px 4px 6px 0px #9f9d9d;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.postContents__title{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.postTextConteiner{
+    margin-top: 5px;
+    max-height: 400px;
+    width: 100%;
+}
+.nameAndDeliteButton{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.nameAndDeliteButton__ttl{
+    flex: 90%;
+}
+
+.nameAndDeliteButton__btn{
+    margin-top: 5px;
+    flex:10%;
+    padding: 3px;
+    background-color: #3277A5;
+    color: #fff;
+    box-shadow: 3px 3px 4px 0px #9f9d9d;
+    border-radius: 5px;
+    border:none;
+    transition: .3s;
+
+}
+
+.nameAndDeliteButton__btn:hover{
+    transform: translateY(3px);
+    box-shadow: none;
+}

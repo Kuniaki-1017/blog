@@ -1,0 +1,31 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+a,input{
+  display: inline-block;
+  cursor: pointer;
+}
+
+.App {
+  height: 100vh;
+  background-color: #dff7fb;
+}
+
+
+.cursor{
+  position: fixed;
+  background-color: rgba(44, 158, 245, .3);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  user-select: none;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  pointer-events: none;
+}
+
+
+
